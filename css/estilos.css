@@ -185,7 +185,7 @@ header .container {
 .arrow {
     width: 50px;
     height: 50px;
-    bottom: 10%;
+    bottom: 15%;
     margin: -50px 0 0 -30px;
     transform: rotate(45deg);
     border-left: none;
@@ -237,8 +237,6 @@ header .container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 49% 100%, 0 80%);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 49% 100%, 0 80%);
 }
 
 .eslogan {
@@ -281,6 +279,12 @@ header .container {
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: -10%
 }
 
 /*------------------------------------------------------------------*/
@@ -1014,7 +1018,6 @@ footer {
     .arrow {
         border-right: 2px #0C0C0C solid;
         border-bottom: 2px #0C0C0C solid;
-        bottom: 5%;
     }
     .arrow:before {
         border-right: 1px #0C0C0C solid;
