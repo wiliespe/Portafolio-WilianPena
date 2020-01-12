@@ -31,6 +31,12 @@ a {
     display: inline-block;
 }
 
+h1, h2, h3 {
+    font-family: "Raleway", sans-serif; 
+    font-weight: normal;
+}
+
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -59,6 +65,8 @@ a {
     margin-left: -15px;
 }
 
+
+
 /*------------------------------------------------------------------*/
 
 /*ESTILOS CABECERA*/
@@ -79,8 +87,8 @@ a {
 }
 
 .logo img {
-    width: 100px;
-    height: 60px;
+    height: 70px;
+    vertical-align: middle;
     margin-right: 0px;
 }
 
@@ -88,12 +96,10 @@ a {
     font-weight: 800;
 }
 
-.texto-logo h1,
-h2,
-h3 {
-    font-family: "Raleway", sans-serif;
+.texto-logo h1 {
+    font-family: 'Audiowide', cursive;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .icono-menu {
